@@ -16,7 +16,7 @@ file_name = "C:\\Users\\enrique\\gpt-2\\src\\chp30.txt"
 if not os.path.isfile(file_name):
         with open(file_name, 'w', encoding='utf-8') as f:
                 pass
-                f.write(file_name.encode('cp1252').decode('cp1252').encode("utf-8"))
+                f.write(file_name.encode.text('cp1252').decode('cp1252').encode("utf-8"))
 
     
 sess = gpt2.start_tf_sess()
